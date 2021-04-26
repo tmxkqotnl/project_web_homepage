@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    margin:0;
+    line-height: 1.5em;
+    background: url(../images/GuestBookBack.png) no-repeat center center fixed;
+    background-size: cover;
+}
+a[id=home]{
+    display:inline-block;
+    position: fixed;
+    left:0;
+    top:0;
+    color:rgba(68, 68, 68, 0.699);
+    font-size: 2em;
+    margin:25px;
+}
+.container{
+    text-align: center;
+}
+.texting{
+    margin-top:100px;
+}
+.texting input{
+    padding:20px;
+    padding-left:40px;
+    border:none;
+    outline:none;
+}
+.texting input[type=text]{
+    width: 300px;
+    margin-right:-6px;
+    border-radius: 40px 0 0 40px;
+}
+.texting input[type=text]::placeholder{
+    content:'';
+    font-size: 15px;
+    font-style:italic;
+}
+.texting input[type=submit]{
+    width: 100px;
+    border-radius: 0 40px 40px 0;
+    cursor:pointer;
+    background-color: #0074D9;
+    padding-right: 60px;
+}
+.texting input[type=text]:focus::placeholder{
+    color:transparent;
+}
+.content{
+    padding:50px;
+}
+.content div{
+    margin:auto;
+    width: 600px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border : 1px solid white;
+    background-color: #fff;
+    padding:25px;
+    padding-left:50px;
+    box-sizing: border-box;
+    color:#444;
+}
