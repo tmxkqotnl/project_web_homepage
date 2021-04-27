@@ -3,7 +3,7 @@
 body{
     margin:0;
     line-height: 1.5em;
-    background: url(../images/GuestBookBack.png) no-repeat center center fixed;
+    background: url(../images/GuestBookBG.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 a[id=home]{
@@ -11,9 +11,13 @@ a[id=home]{
     position: fixed;
     left:0;
     top:0;
-    color:rgba(68, 68, 68, 0.699);
+    color:rgba(68, 68, 68, 0.3);
     font-size: 2em;
     margin:25px;
+    transition:0.3s;
+}
+a[id=home]:hover{
+    color:rgba(68, 68, 68, 1);
 }
 .container{
     text-align: center;
@@ -51,14 +55,19 @@ a[id=home]{
     padding:50px;
 }
 .content div{
+    position:relative;
     margin:auto;
     width: 600px;
     margin-bottom: 30px;
     border-radius: 25px;
-    border : 1px solid white;
+    border : none;
     background-color: #fff;
     padding:25px;
     padding-left:50px;
     box-sizing: border-box;
     color:#444;
+}
+.content div div{
+    float:right;
+    
 }
