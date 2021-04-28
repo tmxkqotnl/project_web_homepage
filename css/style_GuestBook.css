@@ -6,6 +6,7 @@ body{
     background: url(../images/GuestBookBG.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+/* home button */
 a[id=home]{
     display:inline-block;
     position: fixed;
@@ -22,6 +23,7 @@ a[id=home]:hover{
 .container{
     text-align: center;
 }
+/* text input area */
 .texting{
     margin-top:100px;
 }
@@ -51,6 +53,7 @@ a[id=home]:hover{
 .texting input[type=text]:focus::placeholder{
     color:transparent;
 }
+/* GuestBook content */
 .content{
     padding:50px;
 }
