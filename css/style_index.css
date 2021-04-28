@@ -83,18 +83,18 @@ span[id=welcome]:hover:before{
     list-style: none;
 }
 .navi li{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .navi li a{
-    font-family: fontawesome;
     position:relative;
-    font-size:3em;
+    font-size:4em;
     letter-spacing: 2px;
 }
 .navi li a::after{
+    font-family: fontawesome;
     position:absolute;
-    top:-15px;
-    right:-30px;
+    top:-5px;
+    right:-35px;
     font-size: 30px;
     content:'\f053';
     transition:0.3s;
