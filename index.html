@@ -4,29 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style_index.css">
-    <title>MyHomePage</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="content">
-            <!-- video frame -->
-            <div class="video-frame">
-                <video src="videos/open.mp4" autoplay="autoplay" muted="muted"></video>
-            </div>
-            <!-- moving button -->
-            <span id="welcome">Click</span>
-            <!-- navigation tags -->
-            <div class="tags">
-                <ul class="navi">
-                    <li data-img=""><a href="pages/portFolio.html" data-text="PortFolio">About</a></li>
-                    <li data-img=""><a href="pages/GuestBook.html" data-text="MessageTo">Mailbox</a></li>
-                </ul>
-                <div class="photo"></div>
-            </div>
-        </div>
+    <!-- button -->
+    <div class="vertical">
+        <span id = "up"></span>
+        <span id = "down"></span>
     </div>
-
+    <!-- intro -->
+    <div class="welcome">
+        <div class="black"></div>
+        <p><em>Hi</em>, Come on in</p>
+    </div>
+    <div class="container">
+        <section id="sec_fir">
+            <div>
+                <div class="image-frame">
+                    <img src="/images/index.png" alt="">
+                </div>
+            </div>
+            <div class = "treeImg">
+                <img src="./images/tree.jpg">
+            </div>
+        </section>
+        <section id="sec_sec">
+            <div>
+                <iframe src="../pages/portFolio.html" frameborder="0" class = "iframe-sec"></iframe>
+            </div>
+        </section>
+        <section id="sec_last">
+            <div>
+                <iframe src="../pages/GuestBook.html" frameborder="0" class = "iframe-sec"></iframe>
+            </div>
+        </section>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script/index.js"></script>
 </body>
